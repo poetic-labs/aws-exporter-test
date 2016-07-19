@@ -1,6 +1,5 @@
 require('dotenv').config();
 var AWS = require('aws-sdk');
-var Papa = require('babyparse');
 var jsonData = require('./jsonData.js');
 var fs = require('fs');
 var json2csv = require('json2csv');
